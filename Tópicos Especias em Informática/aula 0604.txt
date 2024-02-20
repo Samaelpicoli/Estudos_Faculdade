@@ -1,0 +1,75 @@
+ATIVIDADES AULA ARDUINO:
+Ligar 2 Leds sem nenhum ficar apagado:
+void setup()
+{
+  pinMode(10, OUTPUT);
+  pinMode(9, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(10, HIGH);
+  delay(1000); 
+  digitalWrite(10, LOW);
+  digitalWrite(9, HIGH);
+  delay(1000); 
+  digitalWrite(9, LOW);
+  
+}
+
+Acender Sinaleira:
+void setup()
+{
+//10=vermelho, 9= verde, 11=amarelo
+  pinMode(10, OUTPUT);
+  pinMode(9, OUTPUT);
+  pinMode(11, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(10, HIGH);
+  delay(3000); 
+  digitalWrite(10, LOW);
+  digitalWrite(9, HIGH);
+  delay(1000); 
+  digitalWrite(11, HIGH);
+  delay(1000);
+  digitalWrite(9, LOW);
+  digitalWrite(11, LOW);
+  
+  
+}
+
+incrementando:
+int valor;
+void setup()
+{
+  //10=vermelho, 9= verde, 11=amarelo
+  pinMode(10, OUTPUT);
+  pinMode(9, OUTPUT);
+  pinMode(11, OUTPUT);
+  valor = 0;
+  
+}
+
+void loop()
+{
+  analogWrite(10, valor);
+  delay(3000); 
+  analogWrite(10, LOW);
+  analogWrite(9, valor);
+  delay(1000); 
+  analogWrite(11, valor);
+  delay(1000);
+  analogWrite(9, LOW);
+  analogWrite(11, LOW);
+  valor=valor+50;
+  if(valor>255)
+   valor=0;
+  else
+   delay(1000);
+  
+  
+  
+}

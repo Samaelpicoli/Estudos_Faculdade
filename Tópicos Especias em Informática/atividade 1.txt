@@ -1,0 +1,64 @@
+Arduino Atividade 1:
+Código - Dobro do tempo ligado:
+// C++ code
+//
+void setup()
+{
+  pinMode(10, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(10, HIGH);
+  delay(2000); 
+  digitalWrite(10, LOW);
+  delay(1000); 
+}
+
+Código - Frequência 4hz:
+// C++ code
+//
+void setup()
+{
+  pinMode(10, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(10, HIGH);
+  delay(2000); 
+  digitalWrite(10, LOW);
+  delay(2000); 
+}
+
+Código - Frequência 40hz:
+// C++ code
+//
+void setup()
+{
+  pinMode(10, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(10, HIGH);
+  delay(20000); 
+  digitalWrite(10, LOW);
+  delay(20000); 
+}
+
+Código - Frequência 400hz:
+// C++ code
+//
+void setup()
+{
+  pinMode(10, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(10, HIGH);
+  delay(200000); 
+  digitalWrite(10, LOW);
+  delay(200000); 
+}
