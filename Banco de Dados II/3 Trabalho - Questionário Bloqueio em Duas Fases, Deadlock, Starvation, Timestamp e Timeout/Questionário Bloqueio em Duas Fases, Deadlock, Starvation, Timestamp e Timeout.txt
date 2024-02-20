@@ -1,0 +1,7 @@
+Qual a diferença entre os três tipos de Bloqueio em Duas Fases?
+
+Quais os tipos de problemas que os bloqueios em geral acarretam? Explique cada tipo.
+
+Cite as duas técnicas de prevenção de Deadlocks que utilizam o conceito timestamp.
+
+Quais as situações que Starvation pode ocorrer e como solucionar elas?

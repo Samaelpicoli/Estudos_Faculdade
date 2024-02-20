@@ -1,0 +1,29 @@
+1) Qual a diferença entre os três tipos de Bloqueio em Duas Fases?
+	Básico, garante serialização, é dividido em 2 fases, de expansão onde bloqueia e não libera e de encolhimento onde libera os bloqueios feitos anteriormente. Mas não garante a ausência de deadlock e é feita com Rollbacks em cascata.
+	Os Rollbacks em cascata podem ser evitados usando o Protocolo em duas fases severo: que além do boloqueio em duas fases, os bloqueios de modo exclusivo
+	tomados por uma transação sejam mantidos até que a
+	transação seja efetivada.
+	Também pode ser usado o Protocolo em duas fases rigoroso: exige que todos os bloqueio sejam mantidos até que a transação seja efetivada.
+	Essas duas variantes são as mais usadas em implementações comerciais.
+
+2) Quais os tipos de problemas que os bloqueios em geral acarretam? Explique cada tipo.
+	• Deadlock: ocorre quando transações de um escalonamento
+	ficam esperando por algum item que esteja bloqueado por
+	outras transações de tal escalonamento.
+
+	• Starvation: ocorre quando uma transação não pode continuar
+	sua execução em um intervalo indefinido de tempo,
+	enquanto outras transações são executadas normalmente.
+	• Na prática, starvation pode ocorrer quando: o esquema de espera para itens bloqueados for injusto, priorizando algumas transações em relação a outras
+	ou a mesma transação, no processo de seleção de vítima, for
+	escolhida como vítima repetidamente.
+
+3) Cite as duas técnicas de prevenção de Deadlocks que utilizam o conceito timestamp.
+	Duas técnicas de prevenção, que utilizam o conceito de registro de timestamp, 
+	são: wait-die (esperar-morrer); ▪ wound-wait (ferir-esperar).
+
+4) Quais as situações que Starvation pode ocorrer e como solucionar elas?
+	* Situação em que um processo nunca consegue executar sua região crítica e acessar o recurso compartilhado.
+	* Ocorre quando dois ou mais processos esperam por um mesmo recurso alocado. Caso o sistema escolha o processo aleatoriamente quando o recurso é liberado, um processo pode nunca ser escolhido
+	* Quando um processo tem baixa prioridade também pode nunca ser escolhido.
+	* Filas FIFO eliminam esse problema.

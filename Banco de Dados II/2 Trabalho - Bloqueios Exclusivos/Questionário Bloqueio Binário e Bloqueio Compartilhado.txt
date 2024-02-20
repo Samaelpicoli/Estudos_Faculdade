@@ -1,0 +1,16 @@
+O que é Bloqueio Binário e quais os dois estados possíveis?
+
+Descreva as duas operações atômicas do Bloqueio Binário e cite o exemplo de algoritmo.
+
+O Bloqueio Binário é utilizado com que impacto no mercado de trabalho?
+
+O Bloqueio Compartilhado/Exclusivo é uma variação do bloqueio binário, qual a semelhança entre eles? 
+
+Descreva os estados possíveis do Bloqueio Compartilhado/Exclusivo, com exemplo de algoritmo.
+
+Quais as regras a serem aplicadas no Bloqueio Compartilhado/Exclusivo? Descreva utilizando os exemplos apresentados na tabela de teste de mesa.
+
+Há formas de conversão de bloqueio no Bloqueio Compartilhado/Exclusivo. Quais são elas e com é possível aplicá-las?
+
+Explique o protocolo de bloqueio em duas fases e o que ele não garante.
+
