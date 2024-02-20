@@ -1,0 +1,19 @@
+1) Criar uma procedure para cada tabela que seja possível inserir dados em cada tabela, exemplo:
+
+
+CREATE PROCEDURE faculdades_insert(idx int,nomex varchar(65),emailx varchar(60),localizacaox varchar(80),municipiox varchar(45),estadox varchar(45))
+
+ BEGIN
+
+  insert into faculdades(id_faculdade,nome,email,localizacao,municipio,estado)
+
+values(idx,nomex,emailx,localizacaox,municipiox,estadox);
+
+END //
+
+DELIMITER ;
+
+CALL faculdades_insert(10,'HUICODE ACADEMY','huicodesocial@gmail.com','Rua dos Bandeirantes 3-33','Bauru','São Paulo');
+
+
+2) Converter os scripts de SELECT já feitos em Procedimentos Armazenados.

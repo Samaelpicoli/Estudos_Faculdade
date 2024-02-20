@@ -1,0 +1,1 @@
+Um exemplo do uso de IF ELSE e um de CASE WHEN
