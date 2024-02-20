@@ -1,0 +1,34 @@
+Prova 1
+
+1) C
+2) C
+3) a) V b) F, O Ethernet opera no Enlace c) V, d) F, a família IEEE 802.11 é as redes sem fio.
+4) B
+5) A
+6)
+Particionamento de canal
+- Divide o canal em pedaços menores (compartimentos de tempo, freqüência)
+- Aloca um pedaço para uso exclusivo de cada nó
+Acesso aleatório
+- Canal não dividido, permite colisões
+- “recuperação” das colisões
+Passagem de permissão
+- Nós transmitem nos seus turnos, mas com mais volume para enviar podem usar turnos mais longos
+7) E
+8) CSMA/CA é um protocolo de acesso múltiplo com acesso aleatório utilizado em redes sem fio, sua principal diferença em relação ao CSMA/CD é que no Collision Avoidance, não se pode garantir que uma colisão será sempre escutada, pelas características do sinal sem fio. Desta forma, nesta versão do protocolo, o cliente antes de comunicar envia uma solicitação ao nodo receptor, pedindo se este está ocupado ou não.
+9) A
+10) C
+11) Não podemos utilizar o CSMA/CD em redes sem fio por que não conseguimos detectar colisões em redes sem fio por causa do problema do cliente oculto, onde dois nodos podem estar distante o suficiente para não se reconhecerem, mas comunicarem-se com um nó intermediário um gerando interferência para o outro na comunicação.
+
+Prova 2
+
+1) C
+2) B
+3) 190.133.240.15
+4) 192.168.10.1 e 192.168.11.255
+5) E
+6) D
+7) D
+8) 192.168.10.1/24 e 192.168.10.2/24
+9) As principais razões para a criação dos protocolos de roteamento são a prevenção de erros por configurações manuais, fácil incremento da rede por não precisa alterar nodos que não foram atualizados, facilitar a implementação de caminhos redundantes e cálculo de melhor rota.
+10) E

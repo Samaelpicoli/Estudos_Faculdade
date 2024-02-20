@@ -1,0 +1,9 @@
+Como forma de avaliação do conteúdo de Roteamento IPv4 vocês devem desenvolver uma rede no packet tracer que tenha as seguintes características:
+
+- Pelo menos 4 Redes com Computadores
+
+- Pelo menos 8 Redes (levando em consideração as redes entre roteadores)
+
+- Pelo menos 5 Roteadores
+
+- O roteamento pode ser criado tanto via RIP como estático (se alguém quiser configurar com OSPF fique a vontade de testar algo novo)
