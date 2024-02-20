@@ -1,0 +1,5 @@
+Espaço para postagem de atividade de OSINT utilizando o Maltego.
+
+
+
+Vídeo explicativo: https://www.youtube.com/watch?v=hfLpvyMscXI&ab_channel=Maltego

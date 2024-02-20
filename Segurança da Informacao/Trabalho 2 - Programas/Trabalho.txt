@@ -1,0 +1,6 @@
+Faça uma pesquisa e produza um tutorial de como utilizar a ferramenta e para que serve:
+
+Samael Muniz Picoli:
+https://www.fail2ban.org/wiki/index.php/Main_Page
+Script que instala e configura o fail2ban.
+https://github.com/gondimcodes/servidor_template/blob/main/servidor_template_debian.sh

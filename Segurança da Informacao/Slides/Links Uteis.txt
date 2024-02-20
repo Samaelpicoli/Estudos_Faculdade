@@ -1,0 +1,23 @@
+Links Uteis:
+
+Aplicativo Comandos Linux
+Baixei o aplicativo e explore os diferentes comandos do GNU/Linux.
+
+Clique o link https://play.google.com/store/apps/details?id=com.inspiredandroid.linuxcommandbibliotheca para abrir o recurso.
+
+Oracle Free Tier
+Se possível, crie uma conta do tipo freetier na Oracle para utilizarmos em sala de aula. 
+
+Clique o link https://www.oracle.com/cloud/free/ para abrir o recurso.
+
+Máquina Virtual
+Caso necessitem, façam o download da máquina virtual para os laboratório ou realizem uma instalação da mesma. Podem utilizar outros sistemas operacionais.
+
+A senha é a mesma que a do usuário.  Lembre-se de trocar a senha.
+
+[]'s
+
+
+
+Clique o link https://drive.google.com/file/d/1tynbiNaOA4-CJqD2hDrBOY7NzkK4GQE4/view?usp=drive_link para abrir o recurso.
+

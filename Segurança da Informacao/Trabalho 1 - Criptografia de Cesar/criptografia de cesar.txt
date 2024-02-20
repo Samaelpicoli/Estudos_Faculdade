@@ -1,0 +1,10 @@
+Faça um algoritmo para automatizar a criptografia de César, dado a tabela de referência dos slides.
+
+Esse algoritmo deve receber como entrada uma frase (sem acentos e carácteres especiais) e fazer os seguintes passos:
+
+Trocar as letras por números
+Trocar cada número pela fórmula definida (pode utilizar a dos slides ou inventar uma)
+Trocar cada número pela letra correspondente da tabela
+Printar na tela
+
+

@@ -1,0 +1,11 @@
+Mapa mental contendo diversas ferramentas para investigação.
+
+
+
+Primeiro passo: busca de informações
+
+Escolhar uma empresa ou pessoa a ser analisada
+Descobrir informações utilizando o framework
+
+
+Clique o link https://osintframework.com/ para abrir o recurso.
