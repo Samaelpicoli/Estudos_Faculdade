@@ -1,0 +1,5 @@
+Encaminhar um histórico dos fatos mais marcantes referentes à história dos sistemas operacionais. Não mais do que duas páginas, Times New Roman, 12, espaço simples.
+
+Baixar o livro "Sistemas Operacionais Modernos", do Andrew Tanenbaum (não consegui encaminhar porque possui mais de 10Mb, mesmo compactado).
+
+Pode utilizar o capítulo do livro para fazer a tarefa, bem como usar o livro do Silberschatz, que enviei.
