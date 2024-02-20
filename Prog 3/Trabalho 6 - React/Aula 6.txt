@@ -1,0 +1,2 @@
+(fim da aula do dia 29) Criar um aplicativo onde seja possível escrever um texto em um input e através de um botão o/eu tecla Enter enviar o texto para uma lista que fica abaixo desse input.
+Criar um aplicativo que mantém uma quantidade e valor de uma comanda, permitindo aumentar e diminuir a quantidade de algum dos itens, visualizar o preço do item e total

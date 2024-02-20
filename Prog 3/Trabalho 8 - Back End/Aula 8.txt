@@ -1,0 +1,14 @@
+Crie um servidor que permite calcular somas e multiplicações, processadas a partir da URL.
+Seu servidor possui uma lista de contatos em JSON (crie uma lista com no mínimo 10 contatos). Crie o tratamento das seguintes rotas:
+Lista de Contatos (no servidor)
+Método e rota
+Descrição
+GET /lista
+mostra todos os nomes de contatos, com um botão para visualizar cada contato e botão de retornar à Homepage
+GET /nome	formulário de pesquisa por nome, com a possibilidade de mostrar resultado da pesquisa (com botões de cada usuário) e botão de retornar à Homepage
+GET /cidade	
+formulário de pesquisa por cidade, com a possibilidade de mostrar resultado da pesquisa (com botões de cada usuário) e botão de retornar à Homepage
+GET /id	página de um usuário com nome, cidade, telefone, e-mail, tipo do contato e foto
+GET /	Homepage com links
+
+edit: Exemplo de uso de JSON no servidor como armazenamento de informações (em anexo).

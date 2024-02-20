@@ -1,0 +1,14 @@
+:root {
+    --vermelho: #e27c7c;
+    --branco: #ffffff;
+    --verde: #097a09;
+}
+
+body { background-color: var(--vermelho); }
+
+h1 {color: var(--verde); }
+
+a {color: var(--branco); }
+a {font-weight: bold;}
+
+

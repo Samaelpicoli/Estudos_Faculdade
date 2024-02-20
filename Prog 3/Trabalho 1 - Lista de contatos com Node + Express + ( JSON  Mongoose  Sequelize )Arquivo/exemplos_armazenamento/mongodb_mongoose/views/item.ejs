@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JSON contatos</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Lista de contatos com JSON no servidor</h1>
+    <ul> Dados do contato:
+      <li> <%= data.nome %> </li>
+      <li> <%= data.tel %> </li>
+      <li> <%= data.email %> </li>
+    </ul>
+    <a href="/<%= data.id %>/edit"><button>
+      Editar
+    </button></a>
+    <form method="POST" action="/<%= data.id %>?_method=DELETE">
+      <button type="submit">Deletar</button>
+    </form>
+    <a href="/"><button>
+      Voltar
+    </button></a>
+  </body>
+</html>

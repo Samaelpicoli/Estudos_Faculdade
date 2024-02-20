@@ -1,0 +1,14 @@
+Complemente o exercício do dia 13, finalizando o aplicativo de Contatos.
+
+O aplicativo deve conter 3 telas:
+
+Landing Page
+Listagem dos Contatos
+Formulário de novo contato
+Os critérios utilizados para a avaliação são:
+Estilização
+Armazenamento
+Responsividade
+Dados do contato: nome, telefone, e-mail, endereço
+Uso de API (opcional)
+Validação do formulário (opcional)

@@ -1,0 +1,16 @@
+Construir um aplicativo de agenda de contatos, com os seguintes dados:
+
+Contato: {
+    nome: String,
+    telefone: String,
+    email: String,
+    endereco: String(?)
+    }
+O aplicativo deve conter 3 telas: uma Landing Page/Home explicando o projeto, uma página listando todos os contatos e outra com um formulário que permite registrar um novo contato.
+
+(Na aula de 13/05 foi apresentada a navegação com React Router e o acesso aos dados do CEP através de API utilizando fetch() e useEffect() )
+
+Edit: um link para resolver o envio de informações entre rotas, que não será a forma apresentada na aula seguinte.
+
+Edit 20/05: Exemplos com (local)Storage: https://codesandbox.io/s/22-05-20-prog3-json-localstorage-0ywnzs 
+e Context: https://codesandbox.io/s/22-05-20-prog3-json-context-q6ytsk

@@ -1,0 +1,5 @@
+Estilizar o site de forma que ele ocupe a seguinte estrutura em:
+
+telas extra-grandes;
+telas médias;
+telas menores;

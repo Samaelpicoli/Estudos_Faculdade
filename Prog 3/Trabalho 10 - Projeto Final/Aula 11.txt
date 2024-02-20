@@ -1,0 +1,10 @@
+Esta atividade compreende todos os conteúdos da disciplina de Programação III, envolvendo a criação de um sistema completo através de front-end e back-end. O sistema deve possuir armazenamento de informações em um banco de dados. O acesso a esse banco pode ser realizado no back-end de forma tradicional ou em formato de API, no caso de um front-end desacoplado.
+
+Os requisitos para a atividade são:
+
+Banco com 5 tabelas ou entidades distintas
+Controle de autenticação/acesso de usuário
+Disponibilização de informações públicas sem autenticação
+Acesso a dados específicos ou modificação destes com autenticação
+Responsividade, com no mínimo 2 modos de visualização (mobile e desktop, por exemplo)
+Operações básicas de manipulação (CRUD) de no mínimo 2 entidades/tabelas

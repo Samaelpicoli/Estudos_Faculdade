@@ -1,0 +1,12 @@
+Campo de texto e botão
+Texto é copiado para área abaixo
+Textos antigos são mantidos
+Inserção do texto é realizada na ordem inversa (mais recente no topo)
+Enviar o texto pode ser realizado pelo botão ou tecla Enter
+Exemplo/Correção: https://codesandbox.io/s/echo-2xe28p
+
+Botões de mais e menos
+Todos os itens numa mesma linha
+Número deve ser elemento html de texto (<p>, <span>, <div>, etc.)
+Os botões controlam o número, mudando de 1 em 1 e limitando de zero a dez
+Exemplo/Correção: https://codesandbox.io/s/botoes-e--lc9fwu

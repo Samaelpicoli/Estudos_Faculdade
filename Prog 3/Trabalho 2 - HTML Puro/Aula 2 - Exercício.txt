@@ -1,0 +1,10 @@
+Crie um site pessoal utilizando apenas HTML.
+
+Ele deve possuir diversas seções/páginas como:
+
+Dados pessoais
+Dados funcionais
+Cursos/Hobbies/Projetos
+Matérias cursadas no ADS
+Links úteis para IFRS/Programação/ADS
+Vídeos e/ou fotos favoritos/importantes

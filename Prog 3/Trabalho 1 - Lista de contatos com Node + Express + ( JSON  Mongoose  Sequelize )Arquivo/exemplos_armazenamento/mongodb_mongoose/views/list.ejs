@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JSON contatos</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Lista de contatos com JSON no servidor</h1>
+    <ol> Meus Contatos </ol>
+    <% for (i=0;i<data.length;i++){ %>
+        <a href="/<%= data[i].id %>"><li> <%= data[i].id %>
+        <ul>
+            <li> <%= data[i].nome %> </li>
+            <li> <%= data[i].tel %> </li>
+            <li> <%= data[i].email %> </li>
+        </ul> </li></a>
+    <% } %>
+
+    <a href="/limpar"><button>
+        Limpar
+      </button></a>
+      <a href="/novo"><button>
+        Novo Item
+      </button></a>
+  </body>
+</html>

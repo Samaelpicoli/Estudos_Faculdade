@@ -1,0 +1,36 @@
+Front End:
+
+W3Schools - tutoriais em desenvolvimento web
+Clique o link https://www.w3schools.com/html/default.asp para abrir o recurso.
+
+Codepen - Editor online de HTML+CSS+Javascript com live reload
+Clique o link https://codepen.io/ para abrir o recurso.
+
+Codesandbox - Editor online de projetos (colaborativo)
+Clique o link http://codesandbox.io/ para abrir o recurso.
+
+Bootstrap - biblioteca classes de estilos
+Clique o link https://getbootstrap.com/ para abrir o recurso.
+
+
+CSS-Tricks - exemplos de código e tutoriais
+Clique o link https://css-tricks.com/ para abrir o recurso.
+
+Mozilla Developer Network - Javascript
+Clique o link https://developer.mozilla.org/en-US/docs/Web/JavaScript para abrir o recurso.
+
+Quando deve-se montar os dados no HTML? (CSR, SSR, SSG, ISR)
+Clique o link https://theodorusclarence.com/blog/nextjs-fetch-usecase para abrir o recurso.
+
+
+
+Back End
+
+Linguagem de template | View Engine: EJS
+Clique o link https://ejs.co/ para abrir o recurso.
+
+ExpressJS: Framework para web com Javascript
+Clique o link https://expressjs.com/ para abrir o recurso.
+
+express-generator: template de projeto com ExpressJS
+Clique o link https://expressjs.com/en/starter/generator.html para abrir o recurso.

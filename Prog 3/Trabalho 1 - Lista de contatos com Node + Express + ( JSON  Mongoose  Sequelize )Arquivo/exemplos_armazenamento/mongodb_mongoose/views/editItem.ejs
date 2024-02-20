@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JSON contatos</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Lista de contatos com JSON no servidor</h1>
+    <form method="POST" action="/<%= data.id %>?_method=PUT">
+      Dados do contato:
+      <input type="text" name="nome" placeholder="nome" value="<%= data.nome %>"</input>
+      <input type="text" name="tel" placeholder="tel" value="<%= data.tel %>"</input>
+      <input type="text" name="email" placeholder="email" value="<%= data.email %>"</input>
+    <a href="/<%= data.id %>"><button>
+      Cancelar
+    </button></a>
+      <button type="submit">Salvar</button>
+    </form>
+
+  </body>
+</html>
